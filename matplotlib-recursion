@@ -1,0 +1,151 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Discussion Week 4 Tuesday 2019"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Matplotlib\n",
+    "\n",
+    "1) Generate a numpy array x with n = 20 evenly spaced values from 0 to 1 (excluding 1) and print it.\n",
+    "\n",
+    "Should print:\n",
+    "```\n",
+    "[ 0.    0.05  0.1   0.15  0.2   0.25  0.3   0.35  0.4   0.45  0.5   0.55\n",
+    "  0.6   0.65  0.7   0.75  0.8   0.85  0.9   0.95]\n",
+    "```"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "2) Calculate `y` according to the following formula:\n",
+    "\n",
+    "$$ y(x) = \\sqrt{\\frac{2}{n}} \\cos \\left( k \\pi \\left( x + \\frac{1}{2n}\\right) \\right)$$\n",
+    "\n",
+    "and print it.\n",
+    "\n",
+    "Should print:\n",
+    "```\n",
+    "[ 0.31233448  0.281761    0.2236068   0.1435644   0.04946892 -0.04946892\n",
+    " -0.1435644  -0.2236068  -0.281761   -0.31233448 -0.31233448 -0.281761\n",
+    " -0.2236068  -0.1435644  -0.04946892  0.04946892  0.1435644   0.2236068\n",
+    "  0.281761    0.31233448]\n",
+    "```"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "3) Plot $y(x)$. Label title \"Plot discussion 4T\", x axis \"x\", and y axis \"y\"."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Recursive"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "1) Write recursive functions in Python that calculates **n!**\n",
+    "\n",
+    "$$n! = n \\times (n-1) \\times \\cdots \\times 2 \\times 1$$"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "2) Write recursive functions in Python that calculates the accumulated sum\n",
+    "\n",
+    "$$n + (n-1) + \\cdots + 2 + 1$$"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "3) Write recursive functions in Python that calculates the Fiboniacci sequence\n",
+    "\n",
+    "$$F_n = F_{n-1} + F_{n-2}  \\text{ for } n \\geq 2$$\n",
+    "\n",
+    "$$F_0 = 0, F_1 = 1, F_2 = 1, F_3 = 2, F_4 = 3, \\cdots$$"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.15"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
